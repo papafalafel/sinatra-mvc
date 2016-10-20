@@ -44,8 +44,8 @@ case birth_path_num
   end
 end
 
-def self.valid_birthdate(input)
-  if (input.length == 8 && !input.match(/^[0-9]+[0-9]$/).nil?)
+def self.valid_birthdate(birthdate)
+  if (birthdate.length == 8 && !birthdate.match(/^[0-9]+[0-9]$/).nil?)
     true
   else
     false

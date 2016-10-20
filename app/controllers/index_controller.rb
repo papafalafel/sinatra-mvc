@@ -1,6 +1,3 @@
-require 'sinatra'
-
-
 get '/:birthdate' do
   setup_index_view
 end
