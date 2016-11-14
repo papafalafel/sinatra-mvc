@@ -1,0 +1,22 @@
+.new-person {
+  font-family:courier, arial, sans-serif;
+  font-size: 15px;
+  color: red;
+  position: relative;
+  text-align: center
+}
+
+.edit-person {
+  font-family:courier, arial, sans-serif;
+  font-size: 15px;
+  color: blue;
+  position: relative;
+  text-align: center
+}
+
+.errors {
+  font-weight: bold;
+  font-size: 25px;
+  color: green;
+  text-align: center
+}
