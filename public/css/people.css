@@ -1,6 +1,6 @@
 .new-person {
   font-family:courier, arial, sans-serif;
-  font-size: 15px;
+  font-size: 50px;
   color: red;
   position: relative;
   text-align: center
@@ -8,7 +8,7 @@
 
 .edit-person {
   font-family:courier, arial, sans-serif;
-  font-size: 15px;
+  font-size: 50px;
   color: blue;
   position: relative;
   text-align: center
@@ -16,7 +16,36 @@
 
 .errors {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 75px;
   color: green;
   text-align: center
+}
+
+body {
+  background-color: orange
+}
+
+h1 {
+  font-family: "Comic Sans";
+  font-style: oblique;
+  color: purple;
+  text-align: center
+}
+
+input[type=text] {
+  border: 2px solid red;
+  border-radius: 5px
+}
+
+input[type=date] {
+  border: 2px solid red;
+  border-radius: 5px
+}
+
+input[type=button], input[type=submit] {
+  border: 2px solid red;
+  padding: 16px 32px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: white
 }
